@@ -1,23 +1,5 @@
 {
   "name": "wallposts",
-<<<<<<< HEAD
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-=======
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -54,5 +36,4 @@
       "last 1 safari version"
     ]
   }
->>>>>>> origin/develop
 }
