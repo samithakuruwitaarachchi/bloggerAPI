@@ -66,3 +66,24 @@ To run Comments service, follw the below steps. This service run on `Port 3211`.
 
 `> npm start` - Run the service
 
+
+## Unit Testing and Code Coverage
+
+### Run Unit Tests
+
+Test files are located in each module under ` __test__ ` directory.
+
+To run unit tests, follow below steps.
+
+`> npm test`
+
+For Code Coverrage reports
+
+`> npm test -- --coverage`
+
+
+
+
+
+
+
