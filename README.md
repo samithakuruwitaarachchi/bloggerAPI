@@ -81,6 +81,17 @@ For Code Coverrage reports
 
 `> npm test -- --coverage`
 
+## Services
+
+Authenticaton Service : `http://localhost:3200`
+
+Posts Service : `http://localhost:3212`
+
+Comments Service : `http://localhost:3211`
+
+
+
+
 
 
 
