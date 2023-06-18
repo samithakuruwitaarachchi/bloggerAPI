@@ -26,5 +26,5 @@ app.post('/posts/:id/comments', (req, res) => {
 });
 
 app.listen(3211, () => {
-    console.log('listning on post 3211-1');
+    console.log('listning on post 3211');
 });
