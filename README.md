@@ -156,7 +156,15 @@ Replace author ID with `:id` in query string
 #### Params
 Replace post ID with `:id` in query string
 
+### Update post
 
+`/posts/:id/update` - PATCH
+
+#### Header Params
+  - authorization : < token >
+
+#### Params
+Replace post ID with `:id` in query string
 
 
 
