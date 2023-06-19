@@ -138,14 +138,25 @@ Comments Service : `http://localhost:3211`
 
 ### Get Post By author ID
 
-` /posts/:id` - GET
+`/posts/:id` - GET
 
 #### Header Params
   - authorization : < token >
 
 #### Params
-
 Replace author ID with `:id` in query string
+
+### Delete post
+
+`/posts/delete/:id` - DELETE
+
+#### Header Params
+  - authorization : < token >
+
+#### Params
+Replace post ID with `:id` in query string
+
+
 
 
 
