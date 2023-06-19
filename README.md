@@ -91,21 +91,20 @@ Comments Service : `http://localhost:3211`
 
 ## APIs
 
-### Authenticatio Service
+### Authentication Service
 
 ### User Registration
 
-`/users/create`
+`/users/create` - POST
 
 #### Body Params
   - email
   - password
   - role
 
-    
 ### Auser Authentication
 
-`/users/auth`
+`/users/auth` - POST
 
 #### Body Params 
   - email
@@ -114,6 +113,32 @@ Comments Service : `http://localhost:3211`
 #### Response
 
  With the successfull login, `auth API` return token for login session. This token need to add in header section for further API calls.
+
+## Posts Service
+
+### Create Post
+
+`/posts/create` - POST
+
+#### Header Params
+  - authorization : < token >
+
+#### Body Params
+  -  title
+  -  content
+  -  authorID
+  -  createDate
+
+### Get All Posts
+
+`/posts/all` - GET
+
+#### Header Params
+  - authorization : < token >
+
+
+
+
 
  
 
