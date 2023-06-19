@@ -184,7 +184,12 @@ Replace post ID with `:id` in query string
 #### Query params
 Replace postID with `:id` in query string
 
+### Get All comments by post
 
+`/comments/:id/all` - GET
+
+#### Query params
+Replace postID with `:id` in query string
 
 
  
