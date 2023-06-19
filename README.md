@@ -136,6 +136,17 @@ Comments Service : `http://localhost:3211`
 #### Header Params
   - authorization : < token >
 
+### Get Post By author ID
+
+` /posts/:id` - GET
+
+#### Header Params
+  - authorization : < token >
+
+#### Params
+
+Replace author ID with `:id` in query string
+
 
 
 
