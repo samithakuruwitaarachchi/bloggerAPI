@@ -170,7 +170,7 @@ Replace post ID with `:id` in query string
 
 ### Create Comment
 
-`/comment/:id/comment/create` - POST
+`/comments/:id/comment/create` - POST
 
 #### Header Params
   - authorization : < token >
