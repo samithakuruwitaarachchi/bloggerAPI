@@ -89,6 +89,35 @@ Posts Service : `http://localhost:3212`
 
 Comments Service : `http://localhost:3211`
 
+## APIs
+
+### Authenticatio Service
+
+### User Registration
+
+`/users/create`
+
+#### Body Params
+  - email
+  - password
+  - role
+
+    
+### Auser Authentication
+
+`/users/auth`
+
+#### Body Params 
+  - email
+  - password
+
+#### Response
+
+ With the successfull login, `auth API` return token for losin session. This token need to add in header section for further API calls.
+
+ 
+
+
 
 
 
