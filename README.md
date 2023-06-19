@@ -188,8 +188,31 @@ Replace postID with `:id` in query string
 
 `/comments/:id/all` - GET
 
+#### Header Params
+  - authorization : < token >
+
 #### Query params
 Replace postID with `:id` in query string
+
+### Delete Comment
+
+ `/comments/delete/:id` - DELETE
+
+ #### Header Params
+  - authorization : < token >
+
+ #### Query params
+Replace comment with `:id` in query string
+
+### Update Comment
+
+`/comments/:id/update` - PATCH
+
+#### Header Params
+  - authorization : < token >
+
+#### Params
+Replace comment ID with `:id` in query string
 
 
  
