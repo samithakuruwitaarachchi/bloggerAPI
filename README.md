@@ -166,6 +166,23 @@ Replace post ID with `:id` in query string
 #### Params
 Replace post ID with `:id` in query string
 
+## Comments Service
+
+### Create Comment
+
+`/comment/:id/comment/create` - POST
+
+#### Header Params
+  - authorization : < token >
+
+#### Body Params
+  -  content
+  -  authorID
+  -  postID
+  -  createDate
+    
+#### Query params
+Replace postID with `:id` in query string
 
 
 
