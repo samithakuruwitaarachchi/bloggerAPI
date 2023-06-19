@@ -113,7 +113,7 @@ Comments Service : `http://localhost:3211`
 
 #### Response
 
- With the successfull login, `auth API` return token for losin session. This token need to add in header section for further API calls.
+ With the successfull login, `auth API` return token for login session. This token need to add in header section for further API calls.
 
  
 
