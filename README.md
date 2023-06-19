@@ -218,9 +218,11 @@ Replace comment ID with `:id` in query string
  ## HTTP Codes
 
  `200` - Success
+ 
  `201` - Post/ Comment / User created
 
  `401` - Access denied
+ 
  `403` - Unauthorized
 
  `404` - Not Found
